@@ -8,3 +8,4 @@ The notebooks perform all the analysis using both classical ML models and deep l
 * `TabularNN.ipynb`: An attempt to build an Embedding-based neural network using PyTorch, based on fast.ai's architecture for tabular datasets (does not work).
 * `Tabular Keras.ipynb`: The above, but in Keras. Works, but LipschitzLR performs poorly. At the end of this notebook is an alternative architecture that's simpler and also works well, but this is continued (and is cleaner) in the next notebook.
 * `Alternative network.ipynb`: The alternative network architecture. LipschitzLR outperforms a standard LR with ReLU, LeakyReLU, and PReLU activations.
+* `Automated - alternate and original arch.ipynb`: Contains the original architecture and hyper-parameters as well as the alternate architecture above, with automated preprocessing and running.
